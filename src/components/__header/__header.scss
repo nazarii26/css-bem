@@ -37,11 +37,16 @@ select {
 // ---------------- -------------- ---------------- //
 
 .header-line {
+	background-color: #fff;
+	width: 100%;
+	z-index: 10;
 	height: 90px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: flex-end;
+	position: fixed;
+	top: 0;
 }
 
 .logo {
@@ -67,8 +72,10 @@ select {
 }
 
 .menu {
-	margin-right: 15px; /// problems!
-	align-items: center; /// 
+	margin-right: 15px;
+	align-items: center;
+	margin: auto 0px;
+	margin-right: 25px;
 }
 
 .menu__list {
@@ -81,14 +88,14 @@ select {
 	color: #0063b2;
 	font-size: 22px;
 	font-family: Lato;
-	font-weight: 700; 
+	font-weight: 700;
 }
 
 .language {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 90px; 
+	width: 90px;
 	height: 90px;
 	border-left: 1px solid #8d8d8d;
 }
@@ -99,5 +106,5 @@ select {
 	font-size: 22px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
