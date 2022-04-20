@@ -5,6 +5,9 @@ li {
 a {
 	text-decoration: none;
 }
+a:hover {
+	color: rgb(96, 158, 240);
+}
 
 ul {
 	margin-left: 0;
@@ -63,6 +66,10 @@ select {
 	font-size: 28px;
 	line-height: 34px;
 	letter-spacing: 0.1em;
+}
+
+.logo__button:hover {
+	background-color: rgb(96, 158, 240);
 }
 
 .list {
