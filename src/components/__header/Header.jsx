@@ -7,7 +7,7 @@ export const Header = () => {
 
   return (
     <div className="wrapper">
-      <header>
+      <header> 
         <div className="header-line _container">
           <div className="logo">
             <button className="logo__button">GENIUS</button>
